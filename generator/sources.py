@@ -1,5 +1,7 @@
 """Fetch trending topics (Google Trends RSS) and news headlines (Google News RSS)."""
 import datetime as dt
+import time
+import urllib.error
 import email.utils
 import html
 import re
@@ -15,13 +17,20 @@ def now_iso():
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
 
 
-def fetch(url, timeout=25):
-    req = urllib.request.Request(url, headers={
-        "User-Agent": UA,
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
-    })
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def fetch(url, timeout=25, retries=3):
+    for attempt in range(retries):
+        req = urllib.request.Request(url, headers={
+            "User-Agent": UA,
+            "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and attempt < retries - 1:
+                time.sleep(15 * (attempt + 1))  # rate limited: back off and retry
+                continue
+            raise
 
 
 def _local(tag):
@@ -121,6 +130,8 @@ def get_news(feeds, per_feed, fixtures=None):
                     continue
                 raw = p.read_bytes()
             else:
+                if i:
+                    time.sleep(4)  # be polite to Google News; rapid requests get rate-limited
                 raw = fetch(f["url"])
             items.extend(parse_news(raw, f["category"], per_feed))
         except Exception as e:

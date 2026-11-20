@@ -103,7 +103,10 @@ def main():
                 print(f"  skip (recently covered): {t['topic']}")
                 continue
             print(f"  writing: {t['topic']} ({t['traffic_label']})")
-            post = writer.write_post(t, cfg, catalog, today, use_ai=not args.no_ai)
+            cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=3)
+            recent = [f'{q["title"]} (search term: {q["topic"]})' for q in posts
+                      if q.get("ai") and dt.datetime.fromisoformat(q["published"]) >= cutoff][:40]
+            post = writer.write_post(t, cfg, catalog, today, use_ai=not args.no_ai, recent=recent)
             if not post:
                 print("    skipped (model declined, or AI unavailable; will retry next run)")
                 continue

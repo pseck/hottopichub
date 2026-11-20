@@ -39,6 +39,11 @@ Recent headlines about it:
 ClickBank offers available to recommend (use the id, or null if none truly fits):
 {catalog}
 
+Articles we published in the last few days. If this topic is the SAME news story as one of these
+(even under a different search term, e.g. "btc" vs "bitcoin price"), return {{"skip": true}} so we
+don't publish a duplicate. A genuinely new development on the same subject is fine to cover.
+{recent}
+
 Return JSON with exactly these keys:
 {{
   "skip": false,                  // true only if the topic is unclear, adult, or unsafe to write about
@@ -135,11 +140,12 @@ def extract_json(text):
     return json.loads(text[start:end + 1])
 
 
-def ai_post(trend, cfg, catalog, api_key, today):
+def ai_post(trend, cfg, catalog, api_key, today, recent):
     headlines = "\n".join(f"- {n['title']} ({n.get('source') or 'news'})" for n in trend["news"][:6]) or "- (no headlines available)"
     cat_lines = "\n".join(f"- {p['id']}: {p['name']} [{p.get('category', '')}] {p.get('description', '')}" for p in catalog) or "- (none)"
     prompt = PROMPT.format(geo=cfg.get("geo", "US"), topic=trend["topic"], traffic=trend.get("traffic_label") or "unknown",
-                           date=today, headlines=headlines, catalog=cat_lines, categories=", ".join(CATEGORIES))
+                           date=today, headlines=headlines, catalog=cat_lines, categories=", ".join(CATEGORIES),
+                           recent="\n".join(f"- {r}" for r in recent) or "- (none)")
     raw = call_claude(SYSTEM, prompt, cfg, api_key)
     d = extract_json(raw)
     if d.get("skip"):
@@ -196,11 +202,11 @@ def fallback_post(trend, cfg, catalog):
     }
 
 
-def write_post(trend, cfg, catalog, today, use_ai=True):
+def write_post(trend, cfg, catalog, today, use_ai=True, recent=()):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if use_ai and key:
         try:
-            return ai_post(trend, cfg, catalog, key, today)
+            return ai_post(trend, cfg, catalog, key, today, list(recent))
         except Exception as e:
             # Key is set but the call failed (no credit, outage...): skip so the topic is retried later
             # instead of filling the site with thin roundups.
