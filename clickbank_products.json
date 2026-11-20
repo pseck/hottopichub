@@ -9,7 +9,26 @@
       "category": "Health",
       "description": "A once-daily botanical supplement marketed for memory, focus and mental clarity.",
       "disclaimer": true,
-      "keywords": ["memory", "brain", "focus", "brain fog", "concentration", "productivity", "study", "studying", "exam", "exams", "finals", "nootropic", "nootropics", "cognitive", "mental clarity", "aging", "back to school", "work from home"]
+      "keywords": [
+        "memory",
+        "brain",
+        "focus",
+        "brain fog",
+        "concentration",
+        "productivity",
+        "study",
+        "studying",
+        "exam",
+        "exams",
+        "finals",
+        "nootropic",
+        "nootropics",
+        "cognitive",
+        "mental clarity",
+        "aging",
+        "back to school",
+        "work from home"
+      ]
     },
     {
       "id": "prodentim",
@@ -19,27 +38,59 @@
       "category": "Health",
       "description": "A chewable probiotic supplement marketed for oral and dental health.",
       "disclaimer": true,
-      "keywords": ["teeth", "tooth", "dental", "dentist", "dentists", "gums", "gum disease", "oral health", "bad breath", "breath", "toothpaste", "floss", "smile", "cavities", "candy", "halloween", "sugar", "probiotic", "probiotics"]
+      "keywords": [
+        "teeth",
+        "tooth",
+        "dental",
+        "dentist",
+        "dentists",
+        "gums",
+        "gum disease",
+        "oral health",
+        "bad breath",
+        "breath",
+        "toothpaste",
+        "floss",
+        "smile",
+        "cavities",
+        "candy",
+        "halloween",
+        "sugar",
+        "probiotic",
+        "probiotics"
+      ]
     },
     {
-      "id": "yu-sleep",
+      "id": "brain-song",
       "vendor": "",
-      "hoplink": "",
-      "name": "Yu Sleep",
+      "hoplink": "https://93e71twk32r3fz173xkiubod8t.hop.clickbank.net",
+      "name": "The Brain Song",
       "category": "Health",
-      "description": "A liquid nighttime supplement marketed for relaxation and deeper sleep.",
-      "disclaimer": true,
-      "keywords": ["sleep", "insomnia", "tired", "fatigue", "melatonin", "daylight saving", "daylight saving time", "time change", "clocks", "jet lag", "nap", "bedtime", "night shift", "rest", "stress", "anxiety", "sleep apnea"]
-    },
-    {
-      "id": "femicore",
-      "vendor": "",
-      "hoplink": "",
-      "name": "FemiCore",
-      "category": "Health",
-      "description": "A supplement marketed for women's bladder and urinary comfort.",
-      "disclaimer": true,
-      "keywords": ["bladder", "urinary", "uti", "menopause", "perimenopause", "pelvic floor", "postpartum", "women's health", "womens health", "incontinence", "kegel", "pregnancy"]
+      "description": "A daily audio track you listen to with headphones, marketed for memory and focus.",
+      "disclaimer": false,
+      "keywords": [
+        "memory",
+        "brain",
+        "focus",
+        "music",
+        "study music",
+        "meditation",
+        "binaural",
+        "binaural beats",
+        "headphones",
+        "brain waves",
+        "concentration",
+        "mindfulness",
+        "mental health",
+        "stress",
+        "relaxation",
+        "podcast",
+        "productivity",
+        "studying",
+        "exam",
+        "exams",
+        "finals"
+      ]
     }
   ]
 }
