@@ -44,6 +44,8 @@ def recently_covered(topic, posts, days):
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
     words = norm(topic)
     for p in posts:
+        if not p.get("ai"):
+            continue  # roundups don't block a proper AI article later
         if dt.datetime.fromisoformat(p["published"]) < cutoff:
             continue
         other = norm(p["topic"])
@@ -103,8 +105,11 @@ def main():
             print(f"  writing: {t['topic']} ({t['traffic_label']})")
             post = writer.write_post(t, cfg, catalog, today, use_ai=not args.no_ai)
             if not post:
-                print("    model chose to skip this topic")
+                print("    skipped (model declined, or AI unavailable; will retry next run)")
                 continue
+            if post.get("ai"):
+                # replace any earlier no-AI roundup on the same topic
+                posts = [q for q in posts if q.get("ai") or q["topic"].lower() != t["topic"].lower()]
             slug = base = slugify(post["title"])
             i = 2
             while slug in slugs:

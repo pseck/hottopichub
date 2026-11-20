@@ -202,5 +202,8 @@ def write_post(trend, cfg, catalog, today, use_ai=True):
         try:
             return ai_post(trend, cfg, catalog, key, today)
         except Exception as e:
-            print(f"[warn] AI writing failed for '{trend['topic']}': {e}; using fallback")
+            # Key is set but the call failed (no credit, outage...): skip so the topic is retried later
+            # instead of filling the site with thin roundups.
+            print(f"[warn] AI writing failed for '{trend['topic']}': {e}")
+            return None
     return fallback_post(trend, cfg, catalog)
