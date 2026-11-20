@@ -1,0 +1,37 @@
+{
+  "_instructions": "List the ClickBank offers you want to promote. 'vendor' is the seller's ClickBank nickname (shown in the ClickBank marketplace). Keywords decide which trending posts the offer appears on. Optional 'hoplink' overrides the generated link (paste an encrypted HopLink here if you prefer). These four are PLACEHOLDERS: replace them with real offers from the marketplace.",
+  "products": [
+    {
+      "id": "fitness-program",
+      "vendor": "VENDORNICK1",
+      "name": "Example 30-Day Home Workout Program",
+      "category": "Health",
+      "description": "A follow-along home fitness plan with no equipment needed.",
+      "keywords": ["fitness", "workout", "weight loss", "gym", "exercise", "diet", "new year", "health", "nfl", "nba", "marathon"]
+    },
+    {
+      "id": "survival-guide",
+      "vendor": "VENDORNICK2",
+      "name": "Example Home Preparedness Guide",
+      "category": "Lifestyle",
+      "description": "A practical guide to preparing your home for storms and power outages.",
+      "keywords": ["storm", "hurricane", "winter storm", "power outage", "weather", "snow", "blizzard", "emergency"]
+    },
+    {
+      "id": "online-income",
+      "vendor": "VENDORNICK3",
+      "name": "Example Side-Income Course",
+      "category": "Business",
+      "description": "A beginner course on building an online side business.",
+      "keywords": ["stock", "market", "economy", "jobs", "layoffs", "inflation", "side hustle", "business", "money", "crypto", "bitcoin"]
+    },
+    {
+      "id": "guitar-lessons",
+      "vendor": "VENDORNICK4",
+      "name": "Example Online Guitar Lessons",
+      "category": "Entertainment",
+      "description": "Step-by-step video guitar lessons for beginners.",
+      "keywords": ["concert", "tour", "album", "grammys", "music", "guitar", "song", "band"]
+    }
+  ]
+}
