@@ -1,24 +1,56 @@
 [
  {
-  "title": "Why “Btc” Is Trending Right Now",
-  "meta_description": "What's behind today's spike in searches for btc, with the latest coverage.",
-  "summary": "A quick look at the stories pushing btc up the charts today.",
-  "category": "Lifestyle",
+  "title": "Bitcoin Falls Below $60,000: What's Behind the BTC Selloff",
+  "meta_description": "Bitcoin has slipped to fresh lows under $60,000 as stocks fall too. Here's what the selloff means, why 'digital gold' is being questioned, and what to watch.",
+  "summary": "Bitcoin has dropped below $60,000 to fresh lows, sinking alongside stocks and reviving the debate over whether it works as 'digital gold.' Here is what the headlines tell us, and what they don't.",
+  "category": "Business",
   "sensitive": false,
-  "key_points": [],
-  "body_html": "<p><strong>Btc</strong> is one of today's top searches with 2000+ searches. Here's the coverage driving the interest.</p><h2>Latest coverage</h2><ul><li><a href=\"https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html\" rel=\"nofollow noopener\" target=\"_blank\">Bitcoin selloff: Crypto is failing the &#x27;digital gold&#x27; test again as it sinks with stocks</a> (CNBC)</li><li><a href=\"https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut\" rel=\"nofollow noopener\" target=\"_blank\">Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut</a> (CoinDesk)</li><li><a href=\"https://research.glassnode.com/the-week-onchain-week-46-2026/\" rel=\"nofollow noopener\" target=\"_blank\">Capitulation Meets Support</a> (Glassnode Research)</li></ul>",
-  "amazon_products": [],
+  "key_points": [
+   "Headlines report Bitcoin sliding to fresh lows below $60,000, moving in step with equities.",
+   "CNBC frames the drop as another failed 'digital gold' test, since gold-like assets are expected to hold up when stocks fall.",
+   "Glassnode's research title, 'Capitulation Meets Support,' points to heavy selling colliding with a price zone where buyers have stepped in before.",
+   "Volatility is normal for crypto, but this is a good moment to review risk tolerance and avoid decisions made out of panic.",
+   "Details on exact causes and the size of the move are still developing."
+  ],
+  "body_html": "<h2>What's happening with Bitcoin</h2><p>Bitcoin (BTC) is trending after a sharp decline. According to CoinDesk's live coverage, the price slipped to fresh lows below $60,000. CNBC reports that the drop came as stocks also sank, which is the part drawing the most commentary.</p><p>A third headline, from Glassnode Research, is titled \"Capitulation Meets Support.\" We only have the title, not the report, so we won't claim what its data shows. But the phrasing is familiar to anyone who follows on-chain analysis, and we can explain what it generally means below.</p><h2>Why it's trending now</h2><p>Two things are happening at once: a price milestone and a narrative problem.</p><p>The milestone is simple. Falling below $60,000 is a round-number break, and those tend to drive searches. People see a headline, then look up \"btc\" to check the price.</p><p>The narrative problem is the bigger story. CNBC says crypto is \"failing the 'digital gold' test again.\" When Bitcoin falls along with stocks, it looks less like a safe haven and more like a risk asset.</p><p>CoinDesk's headline also mentions Anthropic sliding after a Nasdaq debut. We can't say from the headline how that connects to Bitcoin, or whether it does. It does suggest a day of broad market turbulence, with investors reassessing risk in several places at once.</p><h2>Background: the 'digital gold' idea</h2><p>Supporters have long argued that Bitcoin resembles gold in a few ways:</p><ul><li><strong>Fixed supply:</strong> Bitcoin's issuance is capped at 21 million coins, which is built into its code.</li><li><strong>No central issuer:</strong> No government or bank can create more of it.</li><li><strong>Potential inflation hedge:</strong> The argument is that scarce assets keep value when currencies lose purchasing power.</li></ul><p>The weak point is correlation. A haven asset is supposed to hold up or rise when other assets fall. Bitcoin has often traded more like a high-growth tech stock, especially during broad sell-offs when investors raise cash. Gold's history as a store of value spans centuries, while Bitcoin has existed since 2009. That is a short record, and a lot of its price still reflects sentiment and liquidity.</p><h2>What 'capitulation meets support' generally means</h2><p>In market analysis, <em>capitulation</em> describes a phase when holders give up and sell, often at a loss, usually during fast declines. <em>Support</em> is a price area where buying interest has historically emerged and slowed or stopped declines.</p><p>The title suggests those two forces are meeting. That does not tell us the price will bounce or keep falling. Support levels can fail, and capitulation can continue longer than expected. Treat any single indicator as one input, not a forecast.</p><h2>What it means for readers</h2><p>Whether you hold Bitcoin, are thinking of buying, or are just curious, a few grounded points apply.</p><ul><li><strong>Volatility is a feature of the asset.</strong> Large drawdowns have happened before, and they are part of what holding crypto involves.</li><li><strong>Check your position size.</strong> If a drop like this would cause real financial stress, the exposure may be larger than your comfort level.</li><li><strong>Avoid panic decisions.</strong> Selling after a steep fall locks in losses, while buying on the assumption of a bounce is a bet, not a certainty.</li><li><strong>Know your time horizon.</strong> Money you may need within months is generally treated differently from long-term money.</li><li><strong>Be wary of hype.</strong> Sell-offs attract confident predictions from all sides. Few people have a reliable record of calling short-term moves.</li></ul><p>This is general information, not financial advice. For decisions about your own money, consider a licensed financial professional.</p><h2>What to watch next</h2><ul><li><strong>Equity markets:</strong> If stocks stabilize, Bitcoin's correlation suggests it may feel less pressure. If they keep falling, it may not.</li><li><strong>Whether the sub-$60,000 area holds:</strong> Analysts will watch whether buyers show up or the price keeps making new lows.</li><li><strong>Trading volume and on-chain activity:</strong> Reports like Glassnode's look at how long-term and short-term holders behave during stress.</li><li><strong>Broader macro signals:</strong> Interest rate expectations and risk appetite often influence both stocks and crypto.</li><li><strong>The 'digital gold' debate:</strong> Expect more commentary on whether Bitcoin's role as a haven holds up or needs rethinking.</li></ul><h2>The bottom line</h2><p>Bitcoin's drop below $60,000, alongside weaker stocks, has put its safe-haven reputation under scrutiny again. The specifics of what triggered the move are still developing, and no headline can say where the price goes next. The most useful response is a calm one: understand what you own or are considering, size it sensibly, and be skeptical of anyone claiming certainty.</p>",
+  "amazon_products": [
+   {
+    "name": "Hardware wallet",
+    "search_query": "crypto hardware wallet cold storage",
+    "why": "Readers who hold Bitcoin may want to keep it in self-custody rather than on an exchange."
+   },
+   {
+    "name": "Book: The Bitcoin Standard",
+    "search_query": "The Bitcoin Standard Saifedean Ammous",
+    "why": "Lays out the 'digital gold' argument that is being debated in the headlines."
+   },
+   {
+    "name": "Book: A Random Walk Down Wall Street",
+    "search_query": "A Random Walk Down Wall Street Malkiel",
+    "why": "A classic primer on market volatility and long-term investing for anyone rattled by a selloff."
+   },
+   {
+    "name": "Metal seed phrase backup",
+    "search_query": "steel crypto seed phrase backup plate",
+    "why": "A fireproof way to store a recovery phrase for self-custody wallets."
+   }
+  ],
   "clickbank_product_id": null,
   "clickbank_pitch": "",
   "tags": [
-   "btc"
+   "bitcoin",
+   "btc",
+   "crypto",
+   "stock market",
+   "digital gold",
+   "cryptocurrency"
   ],
-  "ai": false,
-  "noindex": true,
-  "slug": "why-btc-is-trending-right-now",
+  "ai": true,
+  "noindex": false,
+  "slug": "bitcoin-falls-below-60-000-what-s-behind-the-btc-selloff",
   "topic": "btc",
   "traffic_label": "2000+",
-  "published": "2026-11-20T16:49:13+00:00",
+  "published": "2026-11-20T17:02:47+00:00",
   "sources": [
    {
     "title": "Bitcoin selloff: Crypto is failing the 'digital gold' test again as it sinks with stocks",
@@ -38,25 +70,36 @@
   ]
  },
  {
-  "title": "Why “Spy” Is Trending Right Now",
-  "meta_description": "What's behind today's spike in searches for spy, with the latest coverage.",
-  "summary": "A quick look at the stories pushing spy up the charts today.",
-  "category": "Lifestyle",
-  "sensitive": false,
-  "key_points": [],
-  "body_html": "<p><strong>Spy</strong> is one of today's top searches with 2000+ searches. Here's the coverage driving the interest.</p><h2>Latest coverage</h2><ul><li><a href=\"https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/\" rel=\"nofollow noopener\" target=\"_blank\">Man hired by Russia spied on Silicon Valley tech and defense company, feds say</a> (Ars Technica)</li><li><a href=\"https://www.bloomberg.com/news/articles/2026-11-18/us-charges-russian-as-foreign-agent-targeting-palantir-workers\" rel=\"nofollow noopener\" target=\"_blank\">US Charges Russian as Foreign Agent Targeting Palantir Workers</a> (Bloomberg.com)</li><li><a href=\"https://abc7news.com/post/exclusive-head-fbi-san-francisco-office-says-espionage-bay-area-is-constantly-evolving-threat-amid-ai-boom/20056095/\" rel=\"nofollow noopener\" target=\"_blank\">EXCLUSIVE: Head of FBI San Francisco office says espionage in Bay Area is a &#x27;constantly evolving threat&#x27; amid AI boom</a> (ABC7 Bay Area)</li></ul>",
+  "title": "Russian Agent Charged Over Spying on Palantir Workers: What We Know",
+  "meta_description": "Federal prosecutors say a man hired by Russia spied on a Silicon Valley tech and defense firm. Here is what's known, the background, and what to watch.",
+  "summary": "US authorities have charged a Russian man as a foreign agent, alleging he was hired to surveil a Silicon Valley tech and defense company and its workers. The case comes as the FBI's San Francisco chief calls espionage in the Bay Area a constantly evolving threat during the AI boom.",
+  "category": "Crime",
+  "sensitive": true,
+  "key_points": [
+   "Federal authorities allege a man hired by Russia spied on a Silicon Valley tech and defense company; reports say Palantir workers were the targets.",
+   "The charges are allegations, and the defendant is presumed innocent unless proven guilty in court.",
+   "The head of the FBI's San Francisco office says espionage in the Bay Area is a 'constantly evolving threat' as AI investment grows.",
+   "Employees at tech and defense-adjacent firms are common targets for approaches that look like ordinary networking or job offers.",
+   "Many details, including the full scope of the alleged activity, are still emerging."
+  ],
+  "body_html": "<h2>What's happening</h2><p>Federal prosecutors have charged a Russian man as an unregistered foreign agent. According to headlines from Ars Technica and Bloomberg, the government says he was hired by Russia to spy on a Silicon Valley technology and defense company. Bloomberg's report specifically describes the targets as workers at Palantir, the data-analytics and defense-software firm.</p><p>These are the government's allegations. A criminal charge is not a conviction, and the defendant is presumed innocent unless a court finds otherwise. The headlines do not establish many specifics, such as exactly what information was sought, how the surveillance was carried out, or what the court timeline looks like. Those details are still developing, and this article does not fill them in with guesses.</p><h2>Why it's trending now</h2><p>Two things make this story travel. The first is the mix of names and themes: Russia, Silicon Valley, a well-known defense-tech company and the word 'spy' all in one headline. The second is timing. ABC7 Bay Area ran an exclusive interview with the head of the FBI's San Francisco field office, who described espionage in the Bay Area as a 'constantly evolving threat' amid the AI boom. That framing places the charges inside a larger concern: the region's companies hold valuable technology, and foreign governments know it.</p><h2>Background: how this kind of case works</h2><p>Not all espionage looks like movie spycraft. US law has several tools for cases involving foreign governments:</p><ul><li><strong>Acting as a foreign agent.</strong> Federal law makes it a crime to act in the US as an agent of a foreign government without notifying the Attorney General. This is separate from, and broader than, classic spying on state secrets.</li><li><strong>Economic espionage and trade-secret theft.</strong> These laws cover stealing proprietary information to benefit a foreign government or entity.</li><li><strong>Export and sanctions violations.</strong> These are often used when technology or components are moved to restricted destinations.</li></ul><p>Which provisions apply in this specific case depends on the charging documents, so readers should check the court filings or Justice Department releases for the exact counts.</p><p>Tech and defense companies have long been attractive to foreign intelligence services because their work sits at the intersection of commercial and national-security interests. Software, AI models, chips and the people who build them can all be of interest. Investigators have repeatedly warned that intelligence services recruit or hire people who are not career spies, including contractors and individuals with no obvious government ties, partly because they draw less attention.</p><h2>Why the AI boom matters</h2><p>The FBI official's comments tie the threat to the current surge of money and talent into artificial intelligence. When a region concentrates valuable research, powerful computing resources and fast-growing companies, it becomes a bigger target. Information of interest can include technical designs, product roadmaps, customer relationships, and details about the employees who have access to sensitive work.</p><p>Surveillance of workers, as alleged here, is a reminder that people can be the entry point. Understanding who works on what, where they go and who they talk to can help someone plan a later approach, whether that is recruitment, pressure or a phishing attempt.</p><h2>What it means for readers</h2><p>Most people will never be approached by a foreign intelligence service. But if you work in tech, defense, biotech, semiconductors or AI, a few common-sense habits are worth knowing. Security officials commonly highlight these themes:</p><ul><li><strong>Be thoughtful about unsolicited contact.</strong> Consulting offers, paid 'research surveys', recruiter messages and requests from strangers can be legitimate, but they can also be a way to gather information.</li><li><strong>Watch for questions that drift.</strong> A conversation that moves from general interests to your employer's projects, colleagues or access is worth noticing.</li><li><strong>Know your employer's reporting channel.</strong> Most companies with sensitive work have a security or insider-risk team. Reporting an odd approach early is usually welcomed.</li><li><strong>Limit what you share publicly.</strong> Detailed posts about your role, projects, travel and routines can make it easier for someone to build a profile.</li><li><strong>Use official channels to report concerns.</strong> The FBI accepts tips from the public through its website and local field offices.</li></ul><p>For everyone else, the story is mainly a window into how the competition over technology plays out away from public view, and how law enforcement is treating it as a priority.</p><h2>What to watch next</h2><ul><li><strong>Court proceedings.</strong> Expect initial appearances, possible detention questions and eventually a plea or trial schedule. Filings may reveal more about the allegations.</li><li><strong>Company statements.</strong> Whether the targeted firm or others comment further, and whether any security changes are announced.</li><li><strong>Related cases.</strong> The FBI's remarks suggest it sees a pattern, so additional cases involving Bay Area companies would not be surprising, though none are established by these headlines.</li><li><strong>Policy attention.</strong> Lawmakers and regulators who focus on AI and national security may point to the case in debates about protecting technology and talent.</li></ul><p>As more is released through court documents and official statements, the picture should become clearer. Until then, the safest approach is to separate what prosecutors have alleged from what has actually been proven.</p>",
   "amazon_products": [],
   "clickbank_product_id": null,
   "clickbank_pitch": "",
   "tags": [
-   "spy"
+   "espionage",
+   "russia",
+   "palantir",
+   "fbi",
+   "silicon valley",
+   "foreign agent"
   ],
-  "ai": false,
-  "noindex": true,
-  "slug": "why-spy-is-trending-right-now",
+  "ai": true,
+  "noindex": false,
+  "slug": "russian-agent-charged-over-spying-on-palantir-workers-what-we-know",
   "topic": "spy",
   "traffic_label": "2000+",
-  "published": "2026-11-20T16:49:13+00:00",
+  "published": "2026-11-20T17:02:26+00:00",
   "sources": [
    {
     "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
@@ -76,25 +119,51 @@
   ]
  },
  {
-  "title": "Why “Bitcoin Price” Is Trending Right Now",
-  "meta_description": "What's behind today's spike in searches for bitcoin price, with the latest coverage.",
-  "summary": "A quick look at the stories pushing bitcoin price up the charts today.",
-  "category": "Lifestyle",
+  "title": "Bitcoin Price Slides to $61,300: What a Death Cross Means",
+  "meta_description": "Bitcoin fell to about $61,300 as a death cross formed and $660M in liquidations hit. Here's what those terms mean and what to watch next.",
+  "summary": "Bitcoin dropped to roughly $61,300 around Anthropic's IPO, wiping out leveraged trades and flashing a closely watched technical warning. Here's what the terms mean and what could come next.",
+  "category": "Business",
   "sensitive": false,
-  "key_points": [],
-  "body_html": "<p><strong>Bitcoin Price</strong> is one of today's top searches with 5000+ searches. Here's the coverage driving the interest.</p><h2>Latest coverage</h2><ul><li><a href=\"https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html\" rel=\"nofollow noopener\" target=\"_blank\">Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?</a> (CNBC)</li><li><a href=\"https://finance.yahoo.com/markets/crypto/articles/bitcoin-enters-death-cross-anthropic-190824839.html\" rel=\"nofollow noopener\" target=\"_blank\">Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street</a> (Yahoo Finance)</li><li><a href=\"https://seekingalpha.com/news/4674681-bitcoin-crypto-get-a-modest-boost-amid-anthropic-bullishness\" rel=\"nofollow noopener\" target=\"_blank\">Bitcoin, crypto get a modest boost amid Anthropic bullishness (BTC-USD:Cryptocurrency)</a> (Seeking Alpha)</li></ul>",
-  "amazon_products": [],
+  "key_points": [
+   "Headlines report BTC sliding to about $61,300 after Anthropic's IPO, with roughly $660 million in liquidations.",
+   "A 'death cross' is a moving-average signal. It reflects past price action and does not predict the future.",
+   "Liquidations of leveraged bets can speed up a drop, which is why sell-offs often look sharper than the news alone would suggest.",
+   "Analysts are comparing this move with sell-offs that preceded other big IPOs, but the headlines don't show that pattern repeating."
+  ],
+  "body_html": "<h2>What's happening with the bitcoin price</h2><p>Bitcoin is under pressure. According to CoinDesk, BTC slid to about <strong>$61,300</strong> following Anthropic's IPO, and the drop set off roughly <strong>$660 million in liquidations</strong> across crypto markets. Yahoo Finance reports that bitcoin has entered a <strong>death cross</strong>, a technical signal traders watch closely. CNBC notes that bitcoin showed a similar sell-off pattern ahead of both the Anthropic and SpaceX IPOs.</p><p>The full details are still developing, and exact figures can change quickly in a market that trades around the clock. Treat any single price as a snapshot.</p><h2>Why people are searching for it now</h2><p>Two stories have collided. One is the arrival of a very high-profile AI company on public markets. The other is a sharp move lower in the best-known cryptocurrency. When both land in the same news cycle, people want to know whether they are connected.</p><p>The headlines suggest traders see a timing relationship. Bitcoin sold off before these large IPOs, and the Yahoo Finance headline says the Anthropic debut failed to lift Wall Street. One reading is that big listings pull attention and capital toward new stock offerings and away from riskier assets. That is a theory, not an established cause. Several things can move bitcoin at once, including interest-rate expectations, broader stock-market mood and positioning among leveraged traders.</p><h2>Key terms, explained</h2><h3>What is a death cross?</h3><p>A death cross happens when a shorter-term moving average of price falls below a longer-term one. The most common version uses the 50-day average crossing below the 200-day average. It tells you that recent prices have been weaker than the longer trend.</p><p>The name sounds ominous, but the signal is <em>backward-looking</em>. It confirms that a downtrend has already happened. Sometimes prices keep falling afterward. Other times the market bounces soon after the signal appears. Many analysts treat it as one input among many, not a forecast.</p><h3>What are liquidations?</h3><p>Many crypto traders use leverage, meaning they borrow to make a bigger bet than their own money allows. If the price moves against them far enough, the exchange automatically closes the position to cover the loan. That forced closing is a liquidation.</p><p>When a lot of long positions (bets on rising prices) are liquidated, the forced selling pushes the price down further. That can trigger more liquidations. A figure like $660 million shows how crowded the leveraged trades were. It does not by itself say where prices go next.</p><h2>Background: bitcoin's habit of big swings</h2><p>Bitcoin has always been volatile. It has gone through several boom-and-bust cycles, including a run above $100,000 in late 2024, and drops of 20% or more have happened repeatedly over its history. Roughly every four years the network's mining reward is cut in an event called the halving, and many traders build their cycle theories around it.</p><p>Bitcoin is also now more tied to traditional finance than in its early years. Since US spot bitcoin exchange-traded funds launched in early 2024, ordinary brokerage accounts have been able to hold it more easily. Bitcoin can therefore move along with stocks and respond to the same macro news, though it often moves more sharply.</p><h2>What it means for everyday readers</h2><ul><li><strong>If you own bitcoin:</strong> a headline drop is a reminder to check that your position size matches your risk tolerance. Only money you can afford to see fluctuate belongs in a volatile asset.</li><li><strong>If you're thinking of buying:</strong> a lower price is not automatically a bargain, and a death cross is not automatically a warning to stay away. Neither tells you what happens next.</li><li><strong>If you use leverage:</strong> this episode shows how quickly forced selling can happen. Leveraged positions can be closed out within minutes.</li><li><strong>If you hold crypto long-term:</strong> custody and account security matter in every market, calm or not.</li></ul><p>This article is general information, not financial advice.</p><h2>What to watch next</h2><ul><li><strong>Whether the pattern holds.</strong> CNBC's framing asks what happens after the sell-off. Watch whether bitcoin recovers after the IPO excitement settles, or whether the weakness continues.</li><li><strong>Key price levels.</strong> Analysts often point to recent lows and moving averages as support or resistance. A move back above the long-term average would change the technical picture.</li><li><strong>Liquidation data.</strong> Once leveraged positions have been cleared out, selling pressure can ease. New spikes in liquidations suggest the market is still unstable.</li><li><strong>The wider market.</strong> How the Anthropic shares trade, how the SpaceX offering is received, and what stocks and interest-rate expectations do will all feed into sentiment.</li><li><strong>ETF flows.</strong> Whether money is moving into or out of bitcoin funds is one of the clearer signs of institutional appetite.</li></ul><h2>The bottom line</h2><p>The facts so far: bitcoin fell to about $61,300, around $660 million in leveraged bets were wiped out, and a widely watched technical indicator has turned negative, all in the middle of a major IPO moment. What comes next is unknown. The most useful response is to understand the terms, check your own risk exposure and be wary of anyone who claims to know where the price goes from here.</p>",
+  "amazon_products": [
+   {
+    "name": "Hardware crypto wallet",
+    "search_query": "hardware crypto wallet cold storage",
+    "why": "Readers who hold bitcoin may want to store it offline instead of leaving it on an exchange."
+   },
+   {
+    "name": "Hardware security key",
+    "search_query": "FIDO2 hardware security key USB",
+    "why": "A physical key adds strong two-factor protection to exchange and email accounts."
+   },
+   {
+    "name": "Beginner's book on bitcoin and investing",
+    "search_query": "bitcoin beginners book investing risk",
+    "why": "A good primer helps readers understand market cycles, volatility and terms like leverage."
+   }
+  ],
   "clickbank_product_id": null,
   "clickbank_pitch": "",
   "tags": [
-   "bitcoin price"
+   "bitcoin",
+   "crypto",
+   "death cross",
+   "anthropic ipo",
+   "liquidations",
+   "markets"
   ],
-  "ai": false,
-  "noindex": true,
-  "slug": "why-bitcoin-price-is-trending-right-now",
+  "ai": true,
+  "noindex": false,
+  "slug": "bitcoin-price-slides-to-61-300-what-a-death-cross-means",
   "topic": "bitcoin price",
   "traffic_label": "5000+",
-  "published": "2026-11-20T16:49:13+00:00",
+  "published": "2026-11-20T17:02:02+00:00",
   "sources": [
    {
     "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
@@ -107,9 +176,9 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "Bitcoin, crypto get a modest boost amid Anthropic bullishness (BTC-USD:Cryptocurrency)",
-    "url": "https://seekingalpha.com/news/4674681-bitcoin-crypto-get-a-modest-boost-amid-anthropic-bullishness",
-    "source": "Seeking Alpha"
+    "title": "BTC slides to $61,300 after Anthropic's IPO, triggers $660 million in liquidations",
+    "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt",
+    "source": "CoinDesk"
    }
   ]
  }

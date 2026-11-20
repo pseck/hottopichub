@@ -1,6 +1,29 @@
 {
- "updated": "2026-11-20T16:49:11+00:00",
+ "updated": "2026-11-20T17:01:36+00:00",
  "items": [
+  {
+   "topic": "when we were young festival 2027",
+   "traffic_label": "200+",
+   "traffic": 200,
+   "published": "2026-11-20T16:40:00+00:00",
+   "news": [
+    {
+     "title": "Blink-182, Pierce the Veil to headline When We Were Young in 2027",
+     "url": "https://lasvegassun.com/news/2026/nov/17/blink-182-pierce-the-veil-to-headline-when-we-were/",
+     "source": "Las Vegas Sun"
+    },
+    {
+     "title": "When We Were Young Festival announces 2027 lineup: See Blink-182, Limp Bizkit",
+     "url": "https://nypost.com/2026/11/18/ticket-sales/when-we-were-young-festival-announces-2027-lineup-see-blink-182-limp-bizkit/",
+     "source": "New York Post"
+    },
+    {
+     "title": "VEGAS MUSIC NEWS: ‘When We Were Young’ to Return, T-Mobile Arena Books Animated K-Pop Band, First Vegas Residency for a Former Beatle?",
+     "url": "https://www.casino.org/news/vegas-music-news-when-we-were-young-to-return-t-mobile-arena-books-animated-k-pop-band-first-vegas-residency-for-a-former-beatle/",
+     "source": "Casino.org"
+    }
+   ]
+  },
   {
    "topic": "lance bass",
    "traffic_label": "1000+",
@@ -110,9 +133,9 @@
      "source": "Yahoo Finance"
     },
     {
-     "title": "Bitcoin, crypto get a modest boost amid Anthropic bullishness (BTC-USD:Cryptocurrency)",
-     "url": "https://seekingalpha.com/news/4674681-bitcoin-crypto-get-a-modest-boost-amid-anthropic-bullishness",
-     "source": "Seeking Alpha"
+     "title": "BTC slides to $61,300 after Anthropic's IPO, triggers $660 million in liquidations",
+     "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt",
+     "source": "CoinDesk"
     }
    ]
   },
@@ -163,48 +186,25 @@
    ]
   },
   {
-   "topic": "spx",
+   "topic": "bitcoin price usd",
    "traffic_label": "500+",
    "traffic": 500,
    "published": "2026-11-20T16:00:00+00:00",
    "news": [
     {
-     "title": "A QQQ Option Income Strategy For Bear Markets (SPX)",
-     "url": "https://seekingalpha.com/article/4970586-qqq-option-income-strategy-for-bear-markets",
-     "source": "Seeking Alpha"
+     "title": "How Breet Business API is unlocking new payment opportunities for African businesses through cryptocurrency and stablecoins",
+     "url": "https://africa.businessinsider.com/local/how-breet-business-api-is-unlocking-new-payment-opportunities-for-african-businesses/vbnlxk7",
+     "source": "Business Insider Africa"
     },
     {
-     "title": "Nasdaq drops as Anthropic falls, Dow bounces after nearing correction territory: Live updates",
-     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
-     "source": "CNBC"
+     "title": "Africa’s $101bn Crypto Market: Why Cross-Border Supplier Payments Remain Difficult",
+     "url": "https://techeconomy.ng/africa-101bn-crypto-market-stablecoins-cross-border-payments",
+     "source": "Techeconomy"
     },
     {
-     "title": "Stock market today: S&P 500 and Nasdaq deepen losses as Anthropic IPO fails to quell AI worries",
-     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
-     "source": "Yahoo Finance"
-    }
-   ]
-  },
-  {
-   "topic": "schd stock",
-   "traffic_label": "500+",
-   "traffic": 500,
-   "published": "2026-11-20T16:00:00+00:00",
-   "news": [
-    {
-     "title": "Here's How Many Shares of SCHD You'd Need to Generate $1,000 in Monthly Passive Income",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/heres-many-shares-schd-youd-093500045.html",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "This Dividend ETF Could Double Your Money Over the Next 6 Years",
-     "url": "https://www.fool.com/investing/2026/11/19/this-dividend-etf-could-double-your-money-over-the-next-6-years/",
-     "source": "The Motley Fool"
-    },
-    {
-     "title": "A New Dividend ETF King? Charles Schwab and Vanguard Jockey for Top Spot",
-     "url": "https://www.barrons.com/advisor/articles/charles-schwab-etf-dividend-schd-eb9ed23b",
-     "source": "Barron's"
+     "title": "Bitcoin could become part of Africa’s renewable-energy business model",
+     "url": "https://www.thecable.ng/bitcoin-loses-ground-to-stablecoins-in-nigeria/",
+     "source": "TheCable"
     }
    ]
   },
