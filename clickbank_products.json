@@ -1,37 +1,45 @@
 {
-  "_instructions": "List the ClickBank offers you want to promote. 'vendor' is the seller's ClickBank nickname (shown in the ClickBank marketplace). Keywords decide which trending posts the offer appears on. Optional 'hoplink' overrides the generated link (paste an encrypted HopLink here if you prefer). These four are PLACEHOLDERS: replace them with real offers from the marketplace.",
+  "_instructions": "Your ClickBank offers. 'vendor' is the seller's ClickBank nickname. Instead of a vendor you can paste the HopLink from the marketplace's Promote button into 'hoplink'. An offer with neither is skipped. 'keywords' decide which trending posts an offer can appear on. Keep descriptions factual: no health claims.",
   "products": [
     {
-      "id": "fitness-program",
-      "vendor": "VENDORNICK1",
-      "name": "Example 30-Day Home Workout Program",
+      "id": "phytomem-one",
+      "vendor": "phytomem",
+      "hoplink": "",
+      "name": "Phytomem One",
       "category": "Health",
-      "description": "A follow-along home fitness plan with no equipment needed.",
-      "keywords": ["fitness", "workout", "weight loss", "gym", "exercise", "diet", "new year", "health", "nfl", "nba", "marathon"]
+      "description": "A once-daily botanical supplement marketed for memory, focus and mental clarity.",
+      "disclaimer": true,
+      "keywords": ["memory", "brain", "focus", "brain fog", "concentration", "productivity", "study", "studying", "exam", "exams", "finals", "nootropic", "nootropics", "cognitive", "mental clarity", "aging", "back to school", "work from home"]
     },
     {
-      "id": "survival-guide",
-      "vendor": "VENDORNICK2",
-      "name": "Example Home Preparedness Guide",
-      "category": "Lifestyle",
-      "description": "A practical guide to preparing your home for storms and power outages.",
-      "keywords": ["storm", "hurricane", "winter storm", "power outage", "weather", "snow", "blizzard", "emergency"]
+      "id": "prodentim",
+      "vendor": "prodentim",
+      "hoplink": "",
+      "name": "ProDentim",
+      "category": "Health",
+      "description": "A chewable probiotic supplement marketed for oral and dental health.",
+      "disclaimer": true,
+      "keywords": ["teeth", "tooth", "dental", "dentist", "dentists", "gums", "gum disease", "oral health", "bad breath", "breath", "toothpaste", "floss", "smile", "cavities", "candy", "halloween", "sugar", "probiotic", "probiotics"]
     },
     {
-      "id": "online-income",
-      "vendor": "VENDORNICK3",
-      "name": "Example Side-Income Course",
-      "category": "Business",
-      "description": "A beginner course on building an online side business.",
-      "keywords": ["stock", "market", "economy", "jobs", "layoffs", "inflation", "side hustle", "business", "money", "crypto", "bitcoin"]
+      "id": "yu-sleep",
+      "vendor": "",
+      "hoplink": "",
+      "name": "Yu Sleep",
+      "category": "Health",
+      "description": "A liquid nighttime supplement marketed for relaxation and deeper sleep.",
+      "disclaimer": true,
+      "keywords": ["sleep", "insomnia", "tired", "fatigue", "melatonin", "daylight saving", "daylight saving time", "time change", "clocks", "jet lag", "nap", "bedtime", "night shift", "rest", "stress", "anxiety", "sleep apnea"]
     },
     {
-      "id": "guitar-lessons",
-      "vendor": "VENDORNICK4",
-      "name": "Example Online Guitar Lessons",
-      "category": "Entertainment",
-      "description": "Step-by-step video guitar lessons for beginners.",
-      "keywords": ["concert", "tour", "album", "grammys", "music", "guitar", "song", "band"]
+      "id": "femicore",
+      "vendor": "",
+      "hoplink": "",
+      "name": "FemiCore",
+      "category": "Health",
+      "description": "A supplement marketed for women's bladder and urinary comfort.",
+      "disclaimer": true,
+      "keywords": ["bladder", "urinary", "uti", "menopause", "perimenopause", "pelvic floor", "postpartum", "women's health", "womens health", "incontinence", "kegel", "pregnancy"]
     }
   ]
 }

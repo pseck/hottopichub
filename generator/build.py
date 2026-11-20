@@ -73,7 +73,8 @@ def main():
     args = ap.parse_args()
 
     cfg = load(ROOT / "config.json", {})
-    catalog = load(ROOT / "clickbank_products.json", {}).get("products", [])
+    catalog = [p for p in load(ROOT / "clickbank_products.json", {}).get("products", [])
+               if p.get("vendor") or p.get("hoplink")]  # skip offers not set up yet
     posts = load(DATA / "posts.json", [])
     news = load(DATA / "news.json", [])
     trends = load(DATA / "trends.json", {"updated": None, "items": []})

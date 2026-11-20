@@ -140,3 +140,4 @@ nav a.on,nav a:hover{color:var(--ink)}
   nav a{margin-left:12px;font-size:.9rem}.logo{font-size:1.1rem}
   .grid,.grid.three{grid-template-columns:1fr}
 }
+.cb .fda{font-size:.72rem;color:#6b7a70;margin:12px 0 0;line-height:1.4}

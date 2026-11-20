@@ -23,6 +23,10 @@ explainers about topics that are trending on Google right now. Rules:
 - Product suggestions must be things a reader of THIS topic would plausibly want. If nothing fits
   naturally, return an empty list. Never suggest products for tragedies, deaths, crimes, disasters
   with victims, or partisan politics; set "sensitive": true for those topics.
+- Only recommend a ClickBank offer when the topic is genuinely about that offer's area (e.g. a sleep
+  offer for a story about sleep or the time change). Never make health claims about supplements:
+  no "cures", "treats", "boosts", guaranteed results or statistics. Describe them neutrally as
+  something readers interested in the topic may want to look into.
 - Respond with ONLY a single JSON object, no markdown fences."""
 
 PROMPT = """Trending topic (Google Trends, {geo}): "{topic}"

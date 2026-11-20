@@ -145,6 +145,7 @@ class Site:
   <h3>{esc(prod['name'])}</h3>
   <p>{esc(pitch or prod.get('description', ''))}</p>
   <a class="btn cbbtn" href="{esc(affiliates.clickbank_link(prod, self.cfg, tid))}" target="_blank" rel="sponsored nofollow noopener">Learn more →</a>
+  {'<p class="fda">These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Talk to your doctor before starting any supplement.</p>' if prod.get('disclaimer') else ''}
 </aside>"""
 
     # ---- pages ----
